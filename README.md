@@ -40,9 +40,16 @@ api_automation_project/
 python -m pytest
 
 ```markdown
+
+## Key Features
+
+- Reusable API client with `PostsAPI`
+- Pytest fixtures for test setup
+- Parameterized negative test cases
+- Reusable schema validation
+- Response time validation
+- HTML test report generation
+
 ## Test Report
 
 HTML reports are generated automatically with pytest-html.
-
-Report file:
-report.html
